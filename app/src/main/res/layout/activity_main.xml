@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/registration_form"
+        android:textSize="40sp"
+         />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:maxLength="2000"
+        android:maxLines="1"
+        android:hint="First Name"
+        android:id="@+id/first_name_et"
+        android:scrollHorizontally="false"
+        />
+
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:maxLength="2000"
+        android:maxLines="1"
+        android:hint="Last Name"
+        android:id="@+id/last_name_et"
+        android:scrollHorizontally="false"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:maxLength="2000"
+        android:maxLines="1"
+        android:hint="Age"
+        android:id="@+id/age_et"
+        android:scrollHorizontally="false"
+        />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:inputType="textEmailAddress"
+        android:maxLength="2000"
+        android:maxLines="1"
+        android:hint="Email"
+        android:id="@+id/email_et"
+        android:scrollHorizontally="false"
+        />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:inputType="phone"
+        android:maxLength="2000"
+
+        android:maxLines="1"
+        android:hint="@string/phone_number"
+        android:id="@+id/phone_number_et"
+        android:scrollHorizontally="false"
+        />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Register User"
+        android:id="@+id/submit_b"
+        android:onClick="on_register_click">
+
+    </Button>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Search Users"
+        android:id="@+id/search_b"
+        >
+
+    </Button>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Presing submit will store all the results in a sqlite table, you can press the search button to search through registered users"
+        android:textSize="20sp"
+        android:id="@+id/instructions_tv"
+        />
+
+
+
+</LinearLayout>
