@@ -42,6 +42,9 @@ public class DisplayActivity extends AppCompatActivity {
 
             ArrayAdapter people_array_adapter = new ArrayAdapter<Person>(DisplayActivity.this,android.R.layout.simple_expandable_list_item_1,everyone);
             person_lv.setAdapter(people_array_adapter);
+            if(everyone.size() == 0){
+                Toast.makeText(DisplayActivity.this,"No users Registered yet!",Toast.LENGTH_SHORT).show();
+            }
 
 
         });
