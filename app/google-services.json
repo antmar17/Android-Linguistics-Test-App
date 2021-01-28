@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "446859166933",
+    "project_id": "androidresearchtestapp",
+    "storage_bucket": "androidresearchtestapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446859166933:android:18f2987a8942806ee60e5c",
+        "android_client_info": {
+          "package_name": "com.example.FireBaseTest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "446859166933-0bsl95m8pccfpvtckpnklo46bn6t3c42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyqms54gZ5bLzDKiY_2KbxraxaQ6KLEv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "446859166933-0bsl95m8pccfpvtckpnklo46bn6t3c42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,4 +1,4 @@
-package com.example.synchronizationtestapp;
+package com.example.FireBaseTest;
 
 import org.junit.Test;
 

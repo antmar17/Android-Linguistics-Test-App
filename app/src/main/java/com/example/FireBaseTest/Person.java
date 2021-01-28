@@ -1,4 +1,4 @@
-package com.example.synchronizationtestapp;
+package com.example.FireBaseTest;
 
 public class Person {
     private String first_name;
